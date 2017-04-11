@@ -19,12 +19,14 @@
         </div>
         <!--Right Item-->   
         <div class="right menu">
+            @if(!Request::is('setup'))
             <div class="item">
                 <div class="ui icon input">
                     <input type="text" placeholder="Search...">
                     <i class="search link icon"></i>
                 </div>
             </div>
+            @endif
             <a class="ui item" href="{{url('logout')}}" class="item">Logout</a>
         </div>
     </div>

@@ -1,4 +1,4 @@
-<?php $__env->startSection('head'); ?>
+<?php $__env->startPush('head'); ?>
 <style>
     body {
         background : url(../img/<?php echo e(rand(1,7)); ?>.jpg) no-repeat center center fixed;
@@ -16,7 +16,7 @@
             box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
         }
     </style>
-    <?php $__env->stopSection(); ?>
+    <?php $__env->stopPush(); ?>
 
     <?php $__env->startSection('body'); ?>
     

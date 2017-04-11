@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('head')
+@push('head')
 <style>
     body {
         background : url(../img/{{rand(1,7)}}.jpg) no-repeat center center fixed;
@@ -18,7 +18,7 @@
             box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
         }
     </style>
-    @endsection
+    @endpush
 
     @section('body')
     

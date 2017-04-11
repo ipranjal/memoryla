@@ -9,6 +9,8 @@
             <center><h5>"Keep a diary and someday it will keep you"</h5></center><br>
             <form method="post" action="<?php echo e(url('/diary/editor')); ?>">
             <textarea name="content"> Dear Diary, </textarea>
+            <?php echo e(csrf_field()); ?>
+
             <br>
             <center> <button type="submit" class="ui green submit button" >Post</button></center>
             </form>
