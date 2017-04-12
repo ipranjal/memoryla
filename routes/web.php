@@ -26,7 +26,7 @@ Route::post('/diary/editor','DiaryController@post');
 Route::get('/diary','DiaryController@view');
 
 //demo
-Route::get('/setup',function(){
-   return view('setup.partials'); 
+Route::get('/setup/{id}',function($id){
+   return view('setup.'.$id); 
 });
 

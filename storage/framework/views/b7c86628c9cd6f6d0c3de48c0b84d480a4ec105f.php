@@ -10,7 +10,6 @@
                 <h1><?php echo e($dairy->created_at->format("d F Y")); ?></h1> 
             </div>
             <div class="ui segment">
-
                 <?php echo $dairy->content; ?>
 
             </div>

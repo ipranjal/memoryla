@@ -2,21 +2,21 @@
 
 @section('main')
 <div class="ui three top attached steps">
-  <div class="step">
+  <div class="@if(Request::is('setup/1')) active @endif step">
     <i class="Unlock Alternate icon"></i>
     <div class="content">
       <div class="title">Protect</div>
       <div class="description">Choose an awesome password to secure your account</div>
     </div>
   </div>
-  <div class="step">
+  <div class="@if(Request::is('setup/2')) active @endif step">
     <i class="Child icon"></i>
     <div class="content">
       <div class="title">Personalize</div>
       <div class="description">Tell the world who you are</div>
     </div>
   </div>
-  <div class="step">
+  <div class="@if(Request::is('setup/3')) active @endif step">
     <i class="Users icon"></i>
     <div class="content">
       <div class="title">Connect</div>
@@ -25,7 +25,6 @@
   </div>
 </div>
 <div class="ui attached segment">
-  <p>
-  </p>
+    @yield('content')
 </div>
 @endsection

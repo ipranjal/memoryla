@@ -19,7 +19,7 @@
         </div>
         <!--Right Item-->   
         <div class="right menu">
-            @if(!Request::is('setup'))
+            @if(!Request::is('setup/*'))
             <div class="item">
                 <div class="ui icon input">
                     <input type="text" placeholder="Search...">
