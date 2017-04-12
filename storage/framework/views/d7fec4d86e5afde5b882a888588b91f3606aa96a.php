@@ -17,7 +17,7 @@
         </div>
         <!--Right Item-->   
         <div class="right menu">
-            <?php if(!Request::is('setup')): ?>
+            <?php if(!Request::is('setup/*')): ?>
             <div class="item">
                 <div class="ui icon input">
                     <input type="text" placeholder="Search...">
