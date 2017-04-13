@@ -9,24 +9,26 @@
             <center>
 
                 <form><div class="four wide column">
-                        <div class="ui left aligned segment
-
-                             ui green segment"> <h1>How do you look?</h1></div>
-                    </div><br>
-                    <div class="ui compact raised segment">
+                      
+                   
+                    <br>
+                    <img class="ui medium circular image" src="https://memecrunch.com/meme/B7AX0/sjkd/image.png?w=500&c=1">
+                    </div>
+                    <br>
+                    <div class="ui raised segment">
                         <h2>Fill your details</h2>
-                        <div class="ui huge icon input">
+                        <div class="ui massive icon input">
 
                             <input type="text" placeholder="Username">
                         </div>
                         <br>
                         <br>
-                        <div class="ui huge icon input">
+                        <div class="ui massive icon input">
                             <div class="ui input">
                                 <input type="text" placeholder="First Name">
                             </div></div>
                         <br>
-                        <br><div class="ui huge icon input">
+                        <br><div class="ui massive icon input">
                             <div class="ui input">
                                 <input type="text" placeholder="Last Name">
                             </div>
@@ -48,10 +50,11 @@
                                         <label>Female</label>
                                     </div>
                                 </div>
-                               
-                                </div>
+
                             </div>
                         </div>
+
+                    </div>
 
                     </div>
                     </div>
@@ -62,8 +65,8 @@
 
 
 
-    
-    @endsection
+
+        @endsection
 
 
 
