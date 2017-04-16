@@ -23,7 +23,7 @@
 
     $('.ui.sidebar').first()
             .sidebar('setting', 'dimPage', false)
-            .sidebar('attach events', '.menu .item .sidebar')
+            .sidebar('attach events', '.menu .click')
             ;
 
 </script>

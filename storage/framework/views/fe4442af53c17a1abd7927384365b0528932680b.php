@@ -1,6 +1,6 @@
-@extends('setup.partials')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 <br>
 <div class="ui stackable grid container">
     <div class="two wide column"></div> 
@@ -61,16 +61,18 @@
         </center>
     </div>
 </div>
-@push('scripts')
+<?php $__env->startPush('scripts'); ?>
 <script>
 
     $('.field .dropdown')
             .dropdown()
             ;
 </script>
-@endpush
+<?php $__env->stopPush(); ?>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
 
 
+
+<?php echo $__env->make('setup.partials', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

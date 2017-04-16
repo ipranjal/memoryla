@@ -1,7 +1,9 @@
 @extends('layouts.main')
 
 @section('main')
-<div class="ui three top attached steps">
+<div class="ui grid container">
+<div class="ui segment piled raised">
+<div class="ui three steps">
   <div class="@if(Request::is('setup/1')) active @endif step">
     <i class="Unlock Alternate icon"></i>
     <div class="content">
@@ -24,7 +26,8 @@
     </div>
   </div>
 </div>
-<div class="ui attached segment">
+
     @yield('content')
+</div>   
 </div>
 @endsection

@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('body'); ?>
 
 <?php echo $__env->make('components.sidebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
@@ -8,7 +10,7 @@
     <!-- Topbar-->
     <div class="ui violet top fixed inverted menu"> 
 
-        <a class="item">
+        <a class="item click">
             <i class="sidebar icon"></i>
         </a>
         <!--Left item-->

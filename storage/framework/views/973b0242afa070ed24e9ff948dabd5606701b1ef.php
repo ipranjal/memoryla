@@ -1,6 +1,6 @@
-@extends('setup.partials')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 <br>    <br><br><br><br>
 
 <div class="ui stackable grid container">
@@ -30,4 +30,5 @@
 
 <br>    <br><br><br><br><br>
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('setup.partials', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

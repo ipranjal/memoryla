@@ -169,6 +169,13 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
+        //friends
+        Hootlex\Friendships\FriendshipsServiceProvider::class,
+        //media handeling
+        Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
+        //Activity Log
+        Spatie\Activitylog\ActivitylogServiceProvider::class,
+
 
 
         /*

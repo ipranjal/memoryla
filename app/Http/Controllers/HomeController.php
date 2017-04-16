@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index(Request $r)
     {
-        return view('home');
+        return view('feed');
     }
     
     public function logout(){

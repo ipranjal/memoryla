@@ -1,5 +1,7 @@
 <?php $__env->startSection('main'); ?>
-<div class="ui three top attached steps">
+<div class="ui grid container">
+<div class="ui segment piled raised">
+<div class="ui three steps">
   <div class="<?php if(Request::is('setup/1')): ?> active <?php endif; ?> step">
     <i class="Unlock Alternate icon"></i>
     <div class="content">
@@ -22,8 +24,9 @@
     </div>
   </div>
 </div>
-<div class="ui attached segment">
+
     <?php echo $__env->yieldContent('content'); ?>
+</div>   
 </div>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
